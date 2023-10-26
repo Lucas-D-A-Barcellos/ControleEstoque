@@ -45,5 +45,5 @@ Este é um sistema de controle de estoque desenvolvido em Java que utiliza um ba
 * Verificar q quantidade de peças em uma tabela;
 
 <hr>
-<p>Se desejar contribuir para este projeto, sinta-se à vontade para fazer um fork do repositório, implementar melhorias e enviar um pull request.</p>
+<p>Se desejar contribuir para este projeto, sinta-se à vontade para implementar melhorias e enviar um pull request.</p>
 
