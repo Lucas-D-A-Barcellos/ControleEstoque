@@ -1,5 +1,5 @@
 <h1>Sistema de Estoque de peças utilizando Java e MySQL</h1>
-Este é um sistema de controle de estoque desenvolvido em Java que utiliza um banco de dados MySQL para armazenar informações, em especial, sobre peças automotivas. Além disso, o sistema faz uso das bibliotecas mysqlconnector e jcalendar para facilitar a conexão com o banco de dados e fornecer uma interface gráfica amigável para o usuário.
+Este é um sistema de controle de estoque desenvolvido em Java que utiliza um banco de dados MySQL para armazenar informações, em especial, sobre peça. Além disso, o sistema faz uso das bibliotecas mysqlconnector e jcalendar para facilitar a conexão com o banco de dados e fornecer uma interface gráfica amigável para o usuário.
 
 <h2>Pré-requisitos</h2>
 <p></p>Antes de executar o sistema, certifique-se de ter os seguintes pré-requisitos instalados:  </p>
@@ -26,16 +26,14 @@ Este é um sistema de controle de estoque desenvolvido em Java que utiliza um ba
 ```
 
 
-### Altere os parâmetros do método, "conectarAoBanco" na classe "EstoqueDAO", com as informações do seu banco de dados:
+### Altere os parâmetros do arquivo "ConectionString.xml", com as informações do seu banco de dados:
 
-```java
+```xml
     //informações de conexão
-    String url = "jdbc:mysql://localhost:3306/controle_estoque?useSSL=false";
-    String user = "root";
-    String password = "";
+    <connectionStrings>
+	    <add name="MySQLConnection" connectionString="jdbc:mysql://localhost:3306/controle_estoque?user=root&amp;password=l123&amp;useSSL=false&amp;allowPublicKeyRetrieval=true" providerName="MySql.Data.MySqlClient" />
+    </connectionStrings>
 ```
-
->Como se trata de um sistema pequeno e uma conexão simples direcionei os parâmetros diretamente no código fonte e não em um config separado
 
 <h3>Uso do Sistema</h3>
 <p></p></P>O sistema oferece funcionalidades para:  </p>
