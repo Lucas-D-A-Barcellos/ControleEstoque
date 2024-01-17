@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <connectionStrings>
+	<add name="MySQLConnection" connectionString="jdbc:mysql://localhost:3306/controle_estoque?user=root&amp;password=l123&amp;useSSL=false&amp;allowPublicKeyRetrieval=true" providerName="MySql.Data.MySqlClient" />
+  </connectionStrings>
+</configuration>
